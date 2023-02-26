@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>David Verna</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 120px;
+  background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 120px
+}
+
+a {
+  text-decoration: none;
+}
+
+#alink {
+  text-decoration:underline;
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+  #main {margin-left: 0}
+}
+
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/images/davidimage.jpg" alt="imagen de david verna" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>DAVID</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>GALERIA</p>
+  </a>
+  <a href="#app" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-mobile-phone w3-xxlarge"></i>
+    <p>APP</p>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-at w3-xxlarge"></i>
+    <p>CONTACTO</p>
+  </a>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">DAVID</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">GALERIA</a>
+    <a href="#app" class="w3-bar-item w3-button" style="width:25% !important">APP</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACTO</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <img src="/images/log.png" alt="logo" class="w3-image" width="600" height="600">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Sobre David</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Con 19 años de experiencia dedicado a la batería y 10 volcados a la enseñanza del instrumento, David Verna
+      ofrece un completo contenido de programa y las mejores condiciones para que aprendas sobre el instrumento más motivante.
+    </p>
+     
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">12+</span><br>
+        Años de experiencia
+      </div>
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">6000+</span><br>
+        Clases de batería
+      </div>
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">100+</span><br>
+        Alumnos en el historial
+      </div>
+    </div>
+    
+    <!-- Grid for lessons tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Planes (presencial / online)</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Mensual</li>
+          <li class="w3-padding-16">Una clase por semana</li>
+          <li class="w3-padding-16">Una hora de duración</li>
+          <li class="w3-padding-16">Impresiones de apuntes sin cargo</li>
+          <li class="w3-padding-16">Consultas vía WhatsApp full-time</li>
+        </ul>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Cada 15 días</li>
+          <li class="w3-padding-16">Una clase cada 15 días</li>
+          <li class="w3-padding-16">Una hora de duración</li>
+          <li class="w3-padding-16">Impresiones de apuntes sin cargo</li>
+          <li class="w3-padding-16">Consultas vía WhatsApp full-time</li>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Clase individual</li>
+          <li class="w3-padding-16">Una clase individual</li>
+          <li class="w3-padding-16">Una hora de duración</li>
+          <li class="w3-padding-16">Impresiones de apuntes sin cargo</li>
+          <li class="w3-padding-16">Consultas vía WhatsApp full-time</li>
+      </div>
+    <!-- End Grid/Lessonstables -->
+    </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Galería de alumnos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/images/student1.jpg" alt="foto de un alumno 1" style="width:100%">
+        <img src="/images/student2.jpg" alt="foto de un alumno 1" style="width:100%">
+        <img src="/images/student3.jpg" alt="foto de un alumno 1" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/images/student4.jpg" alt="foto de un alumno 1" style="width:100%">
+        <img src="/images/student5.jpg" alt="foto de un alumno 1" style="width:100%">
+        <img src="/images/student6.jpg" alt="foto de un alumno 1" style="width:100%">
+        <img src="/images/student7.jpg" alt="foto de un alumno 1" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- App Section -->
+<div class="w3-padding-large" id="app">
+  <div class="w3-padding-64 w3-content w3-text-grey" id="app">
+    <h2 class="w3-text-light-grey">App</h2>
+    <hr style="width:200px" class="w3-opacity">
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <a href="https://play.google.com/store/apps/details?id=co.trik.dv_clases_bateria&hl=es_AR&gl=US" target="_blank">
+      <img src="/images/appinfo.png" alt="imagen con info de la app de las clases" class="w3-image" width="400" height="100">
+    </a>
+  </header>
+
+  <div>
+    <ul class="w3-ul w3-white w3-center">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">DV BATERIA</li>
+      <li class="w3-padding-16">Exclusiva para Android®</li>
+      <li class="w3-padding-16">Usuario personalizado con contraseña</li>
+      <li class="w3-padding-16">Material en .PDF con sus audios</li>
+      <li class="w3-padding-16 fa fa-check-square"> Online</li>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contacto</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Argentina</p>
+      <p><a href="https://www.instagram.com/dvclasesbateria/" target="_blank"><i class="fa fa-instagram fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Instagram</p></a>
+      <p><a href="https://www.facebook.com/dvclasesbateria" target="_blank"><i class="fa fa-facebook fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Facebook</p></a>
+      <p><a href="https://twitter.com/dvclasesbateria" target="_blank"><i class="fa fa-twitter fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Twitter</p></a>
+      <p><a href="mailto:vernadavid@hotmail.com"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>vernadavid@hotmail.com</p></a>
+    </div>
+  </div>
+  
+    <!-- Footer -->
+    <p class="w3-medium">Made by David Verna. Web template powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green" id="alink">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
